@@ -1,8 +1,8 @@
-Django>=4.2
-djangorestframework
-djangorestframework-simplejwt
-django-cors-headers
-python-dotenv
-gunicorn
-psycopg2-binary
-whitenoise
+Django>=5.2,<6
+djangorestframework>=3.16,<4
+djangorestframework-simplejwt>=5.5,<6
+django-cors-headers>=4.7,<5
+python-dotenv>=1.0,<2
+gunicorn>=23,<24
+psycopg2-binary>=2.9,<3
+whitenoise>=6.5,<7
