@@ -190,14 +190,7 @@ Merci de respecter la structure du projet :
 
 ## Licence
 
-Ce dépôt n'inclut pas de licence par défaut. Ajoute un fichier `LICENSE` si tu veux publier sous une licence (MIT, Apache-2.0, ...).
+Ce projet est sous licence MIT.  
+Voir le fichier LICENSE pour plus de détails.
 
----
-
-Si tu veux, je peux aussi :
-- Ajouter un `docker-compose.yml` de démarrage
-- Ajouter des tests de base (backend + frontend)
-- Mettre en place une GitHub Action pour build/test
-
-Dis-moi quelle option tu veux que j'implémente ensuite.
 

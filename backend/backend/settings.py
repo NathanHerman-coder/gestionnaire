@@ -69,7 +69,7 @@ MIDDLEWARE = [
 ]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-]
+    "https://invoice-managements.netlify.app/"
 
 ROOT_URLCONF = 'backend.urls'
 
@@ -137,6 +137,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+ALLOWED_HOSTS = ["*"]  # ou domaine Render
+
+MIDDLEWARE += ["whitenoise.middleware.WhiteNoiseMiddleware"]
+
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field

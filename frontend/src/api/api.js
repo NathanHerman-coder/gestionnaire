@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Use environment variable when available (Vite uses import.meta.env)
-const BASE_URL = import.meta.env.VITE_API_BASE || "http://127.0.0.1:8000/api/";
+const BASE_URL = import.meta.env.VITE_API_BASE || "https://backend-8gia.onrender.com";
 
 const api = axios.create({
   baseURL: BASE_URL,
